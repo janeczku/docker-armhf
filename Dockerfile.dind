@@ -1,4 +1,4 @@
-FROM janeczku/armhf-docker:latest
+FROM janeczku/docker-armhf:latest
 
 RUN apk add --update \
 		btrfs-progs \
